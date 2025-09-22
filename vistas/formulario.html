@@ -24,9 +24,46 @@
             <label for="contrasena">Ingrese la contraseña</label>
             <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
         </div>
+        <!--Ingresamos la edad del estudiante-->
+        <div>
+            <label for="edad">Ingrese su edad</label>
+            <input type="number" name="edad" id="edad" maxlength="3" placeholder="Ingrese su edad" required>
+        </div>
+        <!--ingresamos fecha de nacimiento-->
+        <div>
+            <label for="fecha">Ingrese la fecha de nacimiento</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <!--Select-->
+        <div>
+            <select name="color" id="color">
+                <option value="azul">amarillo</option>
+                <option value="rojo">rojo</option>
+                <option value="verde">verde</option>
+            </select>
+        </div>
+        <!--Area de texto-->
+        <div>
+            <label for="comentario">Ingrese su comentario</label>
+            <textarea name="comentario" id="comentario" rows="10" ></textarea>
+        </div>
         <!--Crear boton-->
         <div>
             <input type="submit" value="Enviar formulario">
+        </div>
+        <!--Crear un radio boton-->
+        <div>
+            <label for="genero">Seleccione el genero:</label>
+            <label for="">Masculino</label>
+            <input type="radio" name="genero" id="Masculino" value="Masculino">
+            <label for=""></label>Femenino</label>
+            <input type="radio" name="genero" id="Femenino" value="Femenino">
+            <label for="">Otro</label>
+            <input type="radio" name="genero" id="Otro" value="Otro">
+        </div>
+        <!--Crear boton reset-->
+        <div>
+            <input type="reset" value="Borrar todo">
         </div>
     </form>
     <!--Insertar una imagen-->
