@@ -8,12 +8,12 @@
 
 /*Estilos para el contenedor*/
 .titulo-contenedor {
-    background: olivedrab;
+    background: rgb(0, 252, 105);
     border: 5px solid #000;
     border-radius: 15px;
     width: 700px;
     height: 50px;
     padding: 20px 50px 20px 50px;
     margin: 100px 20px 50px 30px;
-    box-shadow: 5px 5px 5px rgb(32, 243, 4);
+    box-shadow: 5px 5px 5px rgb(52, 255, 1);
 }
